@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: "Poppins";
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("./img/pramod-tiwari-G1WUM1cU13A-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    background-color: #fff;
+    width: 90%;
+    max-width: 60rem;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+.main-card{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    border-bottom: .1rem solid #333;
+    padding-bottom: 3rem;
+    color: #001e4d;
+    display: flex;
+    align-items: center;
+}
+.header img{
+    height: 8rem;
+    width: 8rem;
+}
+.quiz{
+    padding: 2rem 0;
+}
+.question{
+    font-size: 1.8rem;
+    color: #001e4d;
+    font-weight: 600;
+}
+.answers{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1.4rem;
+}
+.answer{
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: #222;
+    font-weight: 500;
+    border: 1px solid #222;
+    padding: 1.4rem;
+    text-align: left;
+    border-radius: .4rem;
+    cursor: pointer;
+    transition: all 150ms ease-in;
+}
+.answer:hover{
+    background-color: #222;
+    color: #fff;
+    border-color: #fff;
+}
+.next-btn{
+    width: 15rem;
+    border: none;
+    outline: none;
+    display: block;
+    margin: 2rem auto 0;
+    height: 4rem;
+    border-radius: .4rem;
+    background: #001e4d;
+    color: #fff;
+    cursor: pointer;
+}
