@@ -73,11 +73,17 @@ body{
     color: #fff;
     border-color: #fff;
 }
+.answer--correct{
+    background-color: #9aeabc;
+}
+.answer--incorrect{
+    background-color: #ff9393;
+}
 .next-btn{
     width: 15rem;
     border: none;
     outline: none;
-    display: block;
+    display: none;
     margin: 2rem auto 0;
     height: 4rem;
     border-radius: .4rem;
