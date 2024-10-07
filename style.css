@@ -79,6 +79,9 @@ body{
 .answer--incorrect{
     background-color: #ff9393;
 }
+.answer--red{
+    cursor: no-drop;
+}
 .next-btn{
     width: 15rem;
     border: none;
